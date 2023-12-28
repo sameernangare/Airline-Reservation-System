@@ -2,3 +2,4 @@
 
 - Git setup
 - rohan added
+- rishi added
