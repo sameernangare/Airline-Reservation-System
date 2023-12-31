@@ -1,0 +1,17 @@
+body {
+  background-image: url("../../assets/p2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h3 {
+  font-size: larger;
+}
+
+.button-left {
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.button-right {
+  border-radius: 0 1.5rem 1.5rem 0;
+}
