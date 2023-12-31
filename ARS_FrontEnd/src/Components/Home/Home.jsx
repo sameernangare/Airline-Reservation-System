@@ -4,9 +4,26 @@ import { MDBInput, MDBCard, MDBCardBody, MDBBtn } from "mdb-react-ui-kit";
 
 const Home = () => {
   return (
-    <div className="container my-5">
+    <div className="container my-5 ">
       <MDBCard className="pt-5">
-        <MDBCardBody className="d-flex mx-1 px-2 gap-2">
+        <div className="d-flex m-auto">
+          <div>
+            <button className="btn btn-secondary btn-lg p-3 px-5 rounded-left  button-left">
+              economy
+            </button>
+          </div>
+          <div>
+            <button className="btn btn-secondary btn-lg p-3 px-5 rounded-0">
+              Business Class
+            </button>
+          </div>
+          <div>
+            <button className="btn btn-secondary btn-lg p-3 px-5 rounded-right  button-right">
+              First Class
+            </button>
+          </div>
+        </div>
+        <MDBCardBody className="d-flex mx-1 my-3 px-2 gap-2">
           <div className="d-flex flex-column">
             <label>
               <h3>From</h3>
