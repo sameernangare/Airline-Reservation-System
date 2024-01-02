@@ -3,9 +3,9 @@ import logo from "../../assets/AirplaneLogo.png";
 
 const Header = () => {
   return (
-    <div style={{ height: "6vh" }} className="bgCol">
+    <div style={{ height: "10vh" }} className="bgCol">
       <Navbar className="navbar navbar-expand-lg navbar-light d-flex justify-content-between px-4">
-        <nav className="navbar-light bg-light">
+        <nav className="navbar-light">
           <a href="#">
             <img src={logo} width="40" height="40" alt="LOGO"></img>
           </a>

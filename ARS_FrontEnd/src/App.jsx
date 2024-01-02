@@ -6,6 +6,7 @@ import SignUp from "./Components/registration/SignUp";
 import Header from "./Components/header/Header";
 import Login from "./Components/authentication/Login";
 import Home from "./Components/Home/Home";
+import FlightList from "./Components/flightList/FlightList";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact element={<Home />}></Route>
+
+          <Route path="/flights" exact element={<FlightList />}></Route>
         </Routes>
       </Router>
     </>
