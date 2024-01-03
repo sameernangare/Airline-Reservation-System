@@ -1,5 +1,8 @@
 import { Navbar } from "react-bootstrap";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 import logo from "../../assets/AirplaneLogo.png";
+
 
 const Header = () => {
   return (
@@ -14,6 +17,8 @@ const Header = () => {
           <nav className=" navbar-loght text-dark  my-2 my-sm-0 px-2">
             <span>SignUp</span>
           </nav>
+          <nav className="navbar navbar-dark text-light px-2">
+          <a href="/login">SignIn</a>
           <nav className="navbar-light text-dark px-2">
             <span>SignIn</span>
           </nav>
