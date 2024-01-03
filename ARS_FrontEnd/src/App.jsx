@@ -5,6 +5,8 @@ import "./App.css";
 import Header from "./Components/header/Header";
 import Home from "./Components/Home/Home";
 import Login from "./Components/authentication/Login";
+import FlightList from "./Components/flightList/FlightList";
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />}></Route>
           <Route path="/login" exact element={<Login />}></Route>
+          <Route path="/flights" exact element={<FlightList />}></Route>
         </Routes>
       </Router>
     </>
